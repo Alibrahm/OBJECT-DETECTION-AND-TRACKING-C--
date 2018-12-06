@@ -1,0 +1,36 @@
+﻿  BetaversionArduino.cpp
+c:\users\ali\source\repos\betaversionarduino\betaversionarduino\betaversionarduino.cpp(62): warning C4474: 'sprintf' : too many arguments passed for format string
+  c:\users\ali\source\repos\betaversionarduino\betaversionarduino\betaversionarduino.cpp(62): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\ali\source\repos\betaversionarduino\betaversionarduino\betaversionarduino.cpp(63): warning C4474: 'sprintf' : too many arguments passed for format string
+  c:\users\ali\source\repos\betaversionarduino\betaversionarduino\betaversionarduino.cpp(63): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\ali\source\repos\betaversionarduino\betaversionarduino\betaversionarduino.cpp(64): warning C4474: 'sprintf' : too many arguments passed for format string
+  c:\users\ali\source\repos\betaversionarduino\betaversionarduino\betaversionarduino.cpp(64): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\ali\source\repos\betaversionarduino\betaversionarduino\betaversionarduino.cpp(65): warning C4474: 'sprintf' : too many arguments passed for format string
+  c:\users\ali\source\repos\betaversionarduino\betaversionarduino\betaversionarduino.cpp(65): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\ali\source\repos\betaversionarduino\betaversionarduino\betaversionarduino.cpp(66): warning C4474: 'sprintf' : too many arguments passed for format string
+  c:\users\ali\source\repos\betaversionarduino\betaversionarduino\betaversionarduino.cpp(66): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\ali\source\repos\betaversionarduino\betaversionarduino\betaversionarduino.cpp(67): warning C4474: 'sprintf' : too many arguments passed for format string
+  c:\users\ali\source\repos\betaversionarduino\betaversionarduino\betaversionarduino.cpp(67): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+c:\users\ali\source\repos\betaversionarduino\betaversionarduino\betaversionarduino.cpp(136): warning C4101: 'i': unreferenced local variable
+BetaversionArduino.obj : error LNK2019: unresolved external symbol "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z) referenced in function "public: __thiscall cv::String::String(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0String@cv@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+BetaversionArduino.obj : error LNK2019: unresolved external symbol "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ) referenced in function "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ)
+BetaversionArduino.obj : error LNK2019: unresolved external symbol _cvCreateImage referenced in function _main
+BetaversionArduino.obj : error LNK2019: unresolved external symbol _cvInRangeS referenced in function _main
+BetaversionArduino.obj : error LNK2019: unresolved external symbol _cvCreateMemStorage referenced in function _main
+BetaversionArduino.obj : error LNK2019: unresolved external symbol _cvReleaseMemStorage referenced in function _main
+BetaversionArduino.obj : error LNK2019: unresolved external symbol _cvGetSeqElem referenced in function _main
+BetaversionArduino.obj : error LNK2019: unresolved external symbol _cvSmooth referenced in function _main
+BetaversionArduino.obj : error LNK2019: unresolved external symbol _cvCvtColor referenced in function _main
+BetaversionArduino.obj : error LNK2019: unresolved external symbol _cvHoughCircles referenced in function _main
+BetaversionArduino.obj : error LNK2019: unresolved external symbol _cvCircle referenced in function _main
+BetaversionArduino.obj : error LNK2019: unresolved external symbol "void __cdecl cv::namedWindow(class cv::String const &,int)" (?namedWindow@cv@@YAXABVString@1@H@Z) referenced in function "void __cdecl createTrackbars(void)" (?createTrackbars@@YAXXZ)
+BetaversionArduino.obj : error LNK2019: unresolved external symbol "int __cdecl cv::createTrackbar(class cv::String const &,class cv::String const &,int *,int,void (__cdecl*)(int,void *),void *)" (?createTrackbar@cv@@YAHABVString@1@0PAHHP6AXHPAX@Z2@Z) referenced in function "void __cdecl createTrackbars(void)" (?createTrackbars@@YAXXZ)
+BetaversionArduino.obj : error LNK2019: unresolved external symbol _cvCreateCameraCapture referenced in function _main
+BetaversionArduino.obj : error LNK2019: unresolved external symbol _cvQueryFrame referenced in function _main
+BetaversionArduino.obj : error LNK2019: unresolved external symbol _cvReleaseCapture referenced in function _main
+BetaversionArduino.obj : error LNK2019: unresolved external symbol _cvNamedWindow referenced in function _main
+BetaversionArduino.obj : error LNK2019: unresolved external symbol _cvShowImage referenced in function _main
+BetaversionArduino.obj : error LNK2019: unresolved external symbol _cvDestroyWindow referenced in function _main
+BetaversionArduino.obj : error LNK2019: unresolved external symbol _cvWaitKey referenced in function _main
+C:\opencv\build\x64\vc14\lib\opencv_world340d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\ALI\source\repos\BetaversionArduino\Debug\BetaversionArduino.exe : fatal error LNK1120: 20 unresolved externals
